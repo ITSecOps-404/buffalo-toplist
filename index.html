@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Casino Toplist</title>
+</head>
+
+<body>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid container-lg position-relative d-flex align-items-center px-3">
+            <a href="/" class="logo d-inline-block align-items-center ms-lg-0 me-lg-auto" style="text-decoration: none;">
+				<img src="images/logo.webp" class="img-fluid" alt="Logo" width="119" height="100">
+			</a>
+            <nav id="navmenu" class="navmenu">
+				<ul class="navbar-nav">
+                </ul>				
+                <div class="mobile-icon-wrapper position-relative">
+                    <i class="mobile-nav-toggle d-none fa-solid fa-bars"></i>
+				</div>
+			</nav>
+        </div>
+    </header>
+    <section class="toplist-section pt-3 pb-4 pt-md-4 pb-md-5">
+        <div class="tl-container container-fluid container-lg" id="casino-list">
+            <h1 class="title mb-3 mb-md-4">Ontario's Best Online Casinos - <span id="current-date"></span></h1>
+            <div class="top-bar px-1 py-1 mb-2 d-flex justify-content-start justify-content-sm-between align-items-center">
+                <div class="d-none left d-md-flex gap-2 gap-sm-3">
+                    <div class="d-flex align-items-center licensed text-white"><img src="images/ontario.webp" width="27" height="16" class="me-1" alt="Ontario Licenced" loading="lazy"><span>Ontario Licensed</span></div>
+                    <div class="d-flex align-items-center secure text-white"><img src="images/secure.webp" width="13" height="16" class="me-1" alt="Secure & Trusted" loading="lazy"><span>Secure & Trusted</span></div>
+                    <div class="d-flex align-items-center withdrawals text-white"><img src="images/withdrawal.webp" width="17" height="16" class="me-1" alt="Fast Withdrawals" loading="lazy"><span>Fast Withdrawals</span></div>
+                </div>
+                <div class="right">
+                    <div class="advertiser-disclaimer">
+                        <a class="advertiser-text" data-bs-toggle="modal" data-bs-target="#disclaimer">Advertiser Disclaimer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="disclaimer" tabindex="-1" aria-labelledby="disclaimer" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="disclaimerLabel">Advertiser Disclaimer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsum dolore labore sapiente perspiciatis? Necessitatibus expedita aperiam doloremque cumque, maxime excepturi consectetur soluta voluptatem illum fugit quaerat, ab quidem explicabo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt omnis aspernatur beatae ipsum eligendi repellendus accusamus accusantium repellat deleniti. Perspiciatis rem dolores voluptates quibusdam quidem odio cumque impedit fuga!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid container-lg">
+            <div class="footer-top">
+                <div class="footer-text-top text-center mb-4">Play Safely & Responsibly</div>
+                <div class="d-flex flex-wrap align-items-center justify-content-center footer-icons gap-3 gap-md-5">
+                    <img src="images/19.webp" alt="19+">
+                    <a href="https://igamingontario.ca/en" target="_blank"><img src="images/igaming.webp" alt="iGaming Ontario"></a>
+                    <a href="https://connexontario.ca/" target="_blank"><img src="images/connex.webp" alt="Connex"></a>
+                    <a href="https://www.agco.ca/en" target="_blank"><img src="images/agco.webp" alt="Agco"></a>
+                </div>
+            </div>
+            <div class="copyright pt-1 pb-2 text-center">&copy; <span id="year"></span> | Lorem Ipsum | All Rights Reserved</div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
